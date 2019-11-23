@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+    <title> calculator </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css"/>
+</head>
+
+<body>
+    <h1 class="text-center">Simple Calculator</h1>
+    <div class="col-md-4 offset-md-4 bg-faded card" style="min-height: 50px;">
+        <div class="calculator">
+            <div class="row">
+                <div class="col-md-12">
+                    <input type="text" id="txtAnswer" class="form-control" value="0" />
+                </div>
+
+                <div class="col-3">
+                    <button class="calBtn" id="btnCe" onclick="sqrtBtnclik()">Sqrt</button>
+                </div>
+                <div class="col-3">
+                    <button class="calBtn" id="btnC" onclick="clearBtnClicked()">CLEAR</button>
+                </div>
+                <div class="col-3">
+                    <button class="calBtn" id="btnDel" onclick="deleteBtnClicked()">DEL</button>
+                </div>
+                <div class="col-3">
+                    <button class="calBtn" id="btnDeivide" onclick="operatorBtnClicked('/')">/</button>
+                </div>
+
+
+                <div class="col-3">
+                    <button class="calBtn" id="btnSeven" onclick="numberBtnClicked(7)">7</button>
+                </div>
+                <div class="col-3">
+                    <button class="calBtn" id="btnEight" onclick="numberBtnClicked(8)">8</button>
+                </div>
+                <div class="col-3">
+                    <button class="calBtn" id="btnNine" onclick="numberBtnClicked(9)">9</button>
+                </div>
+                <div class="col-3">
+                    <button class="calBtn" id="btnMutiply" onclick="operatorBtnClicked('*')">X</button>
+                </div>
+
+
+                <div class="col-3">
+                    <button class="calBtn" id="btnFour" onclick="numberBtnClicked(4)">4</button>
+                </div>
+                <div class="col-3">
+                    <button class="calBtn" id="btnFive" onclick="numberBtnClicked(5)">5</button>
+                </div>
+                <div class="col-3">
+                    <button class="calBtn" id="btnSix" onclick="numberBtnClicked(6)">6</button>
+                </div>
+                <div class="col-3">
+                    <button class="calBtn" id="btnMinus" onclick="operatorBtnClicked('-')">-</button>
+                </div>
+
+
+                <div class="col-3">
+                    <button class="calBtn" id="btnOne" onclick="numberBtnClicked(1)">1</button>
+                </div>
+                <div class="col-3">
+                    <button class="calBtn" id="btnTwo" onclick="numberBtnClicked(2)">2</button>
+                </div>
+                <div class="col-3">
+                    <button class="calBtn" id="btnThree" onclick="numberBtnClicked(3)">3</button>
+                </div>
+                <div class="col-3">
+                    <button class="calBtn" id="btnPlus" onclick="operatorBtnClicked('+')">+</button>
+                </div>
+
+
+                <div class="col-3">
+                    <button class="calBtn" id="btnNag" onclick="nagativeBtnClicked()">+/-</button>
+                </div>
+                <div class="col-3">
+                    <button class="calBtn" id="btnZero" onclick="numberBtnClicked(0)">0</button>
+                </div>
+                <div class="col-3">
+                    <button class="calBtn" id="btnDot" onclick="numberBtnClicked('.')">.</button>
+                </div>
+                <div class="col-3">
+                    <button class="calBtn" id="btnEquality" onclick="equalityBtnClicked()">=</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>

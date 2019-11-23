@@ -1,0 +1,19 @@
+.calculator {
+    margin:5px;
+}
+
+#txtAnswer {
+    font-size: 18px;
+    line-height: 35px;
+    padding: 10px;
+    text-align:right;
+    font-weight:bold;
+}
+
+.calBtn {
+    height: 50px;
+    width: 100%;
+    margin: 3px 0 2px 0;
+    background: orange;
+    color: white;
+}
